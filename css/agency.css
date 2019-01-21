@@ -109,7 +109,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -145,6 +145,11 @@ img::-moz-selection {
   color: #fed136;
 }
 
+  .logo {
+    width: 120px;
+    height: 50px;
+  }
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -171,10 +176,6 @@ img::-moz-selection {
     font-size: 1.25em;
     padding: 12px 0;
   }
-  .logo {
-    width: 120px;
-    height: 50px;
-  }
 }
 
 header.masthead {
@@ -185,6 +186,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 400px;
 }
 
 header.masthead .intro-text {
@@ -306,6 +308,17 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 767px) {
+
+  header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/banniere.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -504,6 +517,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+
   .timeline:before {
     left: 50%;
   }
@@ -558,6 +572,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 1200px) {
+
   .timeline > li {
     min-height: 170px;
   }
@@ -717,3 +732,4 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .blog .carousel-indicators .active {
 background: #707070;
 }
+
