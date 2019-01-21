@@ -181,7 +181,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/banniere.png");
+  background-image: url("../img/banniere.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -312,7 +312,7 @@ header.masthead .intro-text .intro-heading {
   header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/banniere.png");
+  background-image: url("../img/banniere.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
