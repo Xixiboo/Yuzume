@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+*{
+
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -108,11 +112,12 @@ img::-moz-selection {
   background: transparent;
 }
 
-#mainNav {
-  background-color: transparent;
-}
+/* #mainNav {
+  background-color: #fff;
+} */
 
 #mainNav .navbar-toggler {
+  outline: none;
   font-size: 12px;
   right: 0;
   padding: 13px;
@@ -137,7 +142,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #888;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -229,6 +234,11 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
 }
 
 .service-heading {
@@ -286,7 +296,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 20px 0 20px 0;
   text-align: center;
   background-color: #fff;
 }
@@ -308,7 +318,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 767px) {
-
   header.masthead {
   text-align: center;
   color: white;
@@ -516,6 +525,15 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
+@media(max-width: 768px){
+  
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+}
+
 @media (min-width: 768px) {
 
   .timeline:before {
@@ -616,6 +634,8 @@ header.masthead .intro-text .intro-heading {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #212529;
+  color: white;
 }
 
 footer span.copyright {
@@ -645,9 +665,10 @@ ul.social-buttons li a {
   height: 50px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: white;
   border-radius: 100%;
   outline: none;
+  color: white;
+  border: 1px solid white;
   background-color: #212529;
 }
 
