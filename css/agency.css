@@ -186,7 +186,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("/img/Banniere.jpg");
+  background-image: url("/img/Banniere3.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -321,7 +321,7 @@ header.masthead .intro-text .intro-heading {
   header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/Banniere.jpg");
+  background-image: url("../img/Banniere3.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -335,6 +335,10 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal {
   padding-right: 0px !important;
+}
+
+.modal-body img {
+  width: 30%;
 }
 
 .portfolio-modal .modal-dialog {
@@ -526,7 +530,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media(max-width: 768px){
-  
+  header.masthead {
+    background-image: url('/img/Banniere4.png');
+  }
+
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
@@ -667,9 +674,9 @@ ul.social-buttons li a {
   transition: all 0.3s;
   border-radius: 100%;
   outline: none;
-  color: white;
-  border: 1px solid white;
-  background-color: #212529;
+  color: #212529;
+  border: 1px solid #212529;
+  background-color: white;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
